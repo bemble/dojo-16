@@ -6,6 +6,7 @@ Le but de ce dojo est de programmer une application de Puissance 4 en typescript
 * se joue à deux en faisant tomber chacun son tour un jeton de sa couleur dans une grille
 * le joueur qui arrive à aligner une ligne de quatre jetons (horizontale, verticale, ou diagonale) gagne la partie
 
+Un Puissance 4 est défini par les classes ci-dessous :
 
 ## 1/ Grille
 
@@ -44,8 +45,8 @@ Une **Partie** de Puissance 4
 * sait à quel joueur c’est le tour de jouer
 * accepte le coup du joueur dont c’est le tour
 * refuse le coup du joueur dont ce n’est pas le tour
-* après un coup accepté, sait si la partie est **GAGNEE** (et par quel joueur, ou si la partie est NULLE
-* après un certain délai, déclare la partie abandonnée par le joueur dont c’est le tour si ce joueur n’a toujours pas joué, et donc GAGNEE par son adversaire.
+* après un coup accepté, sait si la partie est **GAGNEE** (et par quel joueur), ou si la partie est **NULLE**
+* après un certain délai, déclare la partie abandonnée par le joueur dont c’est le tour si ce joueur n’a toujours pas joué, et donc **GAGNEE** par son adversaire.
 
 
 
