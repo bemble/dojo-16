@@ -1,0 +1,1 @@
+enum Couleur {VIDE, ROUGE, JAUNE};
