@@ -14,18 +14,18 @@ Il vous faut avoir installé et fonctionnel :
  
 ## Exécution
 
-__Compiler et lancer les tests à chaque modif__
+__Compiler et lancer les tests à chaque modif :__
 
 Une tâche grunt a été faite pour lancer la compilation et exécuter les tests à chaque modification.
 Il suffit donc de lancer :
 
     grunt watch
     
-__Sinon__
+__Sinon :__
 
 Vous pouvez compiler via le plugin de votre IDE ou à la main et lancer les tests comme ceci :
 
-    karma start karma.conf.watch.js
+    karma start
     
 Les tests seront ainsi exécutés après chaque génération de fichier Javascript.
 

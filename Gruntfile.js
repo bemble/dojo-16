@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         typescript: {
             base: {
-                src: ['src/**/*.ts'],
+                src: ['src/**/*.ts', 'tests/**/*.ts'],
                 options: {
                     target: 'es5'
                 }
@@ -13,7 +13,9 @@ module.exports = function (grunt) {
         },
         karma: {
             unit: {
-                configFile: 'karma.conf.js'
+                configFile: 'karma.conf.js',
+                singleRun: true,
+                autoWatch: false
             }
         },
         watch: {
