@@ -1,8 +1,12 @@
 .idea
 .DS_Store
+*.suo
 
 node_modules
 
 *.js.map
-src/**/*.js
-tests/**/*.js
+*.cs
+dojo-16/obj
+dojo-16/bin
+dojo-16/src/**/*.js
+dojo-16/tests/**/*.js
