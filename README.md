@@ -9,7 +9,7 @@ Il vous faut avoir installé et fonctionnel :
 * node
 * les paquets node suivant en global : typescript grunt-cli karma-cli 
 
-    npm install -g typescript grunt-cli karma-cli
+        npm install -g typescript grunt-cli karma-cli
 
  
 ## Exécution
