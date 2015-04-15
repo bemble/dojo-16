@@ -1,6 +1,11 @@
 # Kata TypeScript
 
 Le but de ce dojo est de programmer une application de Puissance 4 en Typescript.
+__Objectifs du dojo :__
+
+* travailler TDD
+* découvrir Typescript
+* faire un dojo en JS sans utiliser console.log
 
 ## Prérequis
 

@@ -15,13 +15,13 @@ module.exports = function (config) {
 
         // list of files / patterns to load in the browser
         files: [
-            'src/Couleur.js',
-            'src/Grille.js',
-            'src/Arbitre.js',
-            'src/IConsoleExterne.js',
-            'src/Application.js',
-            'src/Partie.js',
-            'tests/**/*.spec.js'
+            'dojo-16/src/Couleur.js',
+            'dojo-16/src/Grille.js',
+            'dojo-16/src/Arbitre.js',
+            'dojo-16/src/IConsoleExterne.js',
+            'dojo-16/src/Application.js',
+            'dojo-16/src/Partie.js',
+            'dojo-16/tests/**/*.spec.js'
         ],
 
 

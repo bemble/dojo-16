@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         typescript: {
             base: {
-                src: ['src/**/*.ts', 'tests/**/*.ts'],
+                src: ['dojo-16/src/**/*.ts', 'dojo-16/tests/**/*.ts'],
                 options: {
                     target: 'es5'
                 }
@@ -25,7 +25,7 @@ module.exports = function (grunt) {
                 tasks: ['typescript']
             },
             karma: {
-                files: ['src/**/*.js', 'tests/**/*.js'],
+                files: ['**/src/**/*.js', '**/tests/**/*.js'],
                 tasks: ['karma']
             }
         }

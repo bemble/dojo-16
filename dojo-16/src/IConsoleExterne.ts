@@ -1,4 +1,4 @@
 interface IConsoleExterne {
-    write(message?:any, ...optionalParams:any[]): void;
+    write(message:string): void;
     read():string;
 }

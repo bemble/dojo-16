@@ -9,6 +9,14 @@ describe('Grille', () => {
         grille = new Grille();
     });
 
+    it('definit le nombre de lignes de la grille', () => {
+        expect(Grille.LIGNES).toBeDefined();
+    });
+
+    it('definit le nombre de colonnes de la grille', () => {
+        expect(Grille.COLONNES).toBeDefined();
+    });
+
     it('par defaut la grille est vide', () => {
         for (var colonne = 0; colonne < Grille.COLONNES; colonne++) {
             for (var ligne = 0; ligne < Grille.LIGNES; ligne++) {
