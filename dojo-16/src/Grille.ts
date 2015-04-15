@@ -12,8 +12,12 @@ class Grille {
         }
     }
 
-    donneCouleur(colonne:number, ligne:number) {
-        return Couleur.VIDE;
+    donneCouleur(colonne:number, ligne:number):Couleur {
+        return this.grille[ligne][colonne];
+    }
+
+    metCouleur(colonne:number, ligne:number, couleur:Couleur) {
+        this.grille[0][0] = Couleur.JAUNE;
     }
 
     static get COLONNES():number {

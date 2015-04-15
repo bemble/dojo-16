@@ -25,4 +25,11 @@ describe('Grille', () => {
             }
         }
     });
+
+    it('donne la couleur JAUNE dans une case quand on y ajoute un jeton JAUNE', () => {
+        grille.metCouleur(0, 0, Couleur.JAUNE);
+        var couleur = grille.donneCouleur(0, 0);
+
+        expect(couleur).toEqual(Couleur.JAUNE);
+    })
 });
