@@ -60,14 +60,8 @@
     <TypeScriptCompile Include="src\Grille.ts" />
     <TypeScriptCompile Include="src\IConsoleExterne.ts" />
     <TypeScriptCompile Include="src\Partie.ts" />
+    <TypeScriptCompile Include="tests\Couleur.spec.ts" />
     <TypeScriptCompile Include="tests\Grille.spec.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Gruntfile.js" />
-    <Content Include="karma.conf.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="package.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
 </Project>
