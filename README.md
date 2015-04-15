@@ -1,6 +1,7 @@
 # Kata TypeScript
 
 Le but de ce dojo est de programmer une application de Puissance 4 en Typescript.
+
 __Objectifs du dojo :__
 
 * travailler TDD
